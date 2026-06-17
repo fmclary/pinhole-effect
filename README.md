@@ -1,2 +1,5 @@
-# pinhole-effect
-Simulation of pinhole effect in XAS
+# Pinhole Effect Simulator
+When doing transmission-mode XAS on a sample, the particles must be small enough and mixed homogeneously enough so that there are no gaps between them. If particles are too large or not mixed homogeneously, they distribute unevenly across the cross-section of the x-ray beam. In regions where the particles are more thickly clustered, the transmitted beam is over-attenuated; where there are gaps (pinholes), the beam is under-attenuated. The resulting transmitted beam thus appears to have passed through a sample whose thickness varies across the beam cross-section. Since the final spectrum is a sum over the transmitted intensity at each point, it is important to understand how different distributions of effective thickness affect the transmitted intensity.
+
+## General idea
+The user should be able to specify a thickness probability distribution, the number of indicent rays, and the element/absorption edge of interest. The simulator takes the thickness distribution as the basis for a loop of many dice rolls that calculate the mu(E) and I_T for that particular thickness while maintaining a running sum of total I_T. The output should be a figure that plots the simulated spectrum mu(E) and the correct spectrum on the same graph for comparison. Consider also some metrics that could be calculated to quantify the severity of the pinhole effect.

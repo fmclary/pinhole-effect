@@ -16,7 +16,9 @@ requires-python = '>=3.10'
 dependencies = [
   'numpy>=1.17',
   'scipy>=1.4',
-  'matplotlib>=3.5'
+  'matplotlib>=3.5',
+  'pytest'
+
 ]
 classifiers = [
   'Programming Language :: Python :: 3',

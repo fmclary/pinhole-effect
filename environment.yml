@@ -1,0 +1,10 @@
+name: pinhole-effect
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib=3.5
+  - numpy=1.17
+  - pandas=2.2.2
+  - pytest=9.0.1
+  - python=3.12
+  - scipy=1.4

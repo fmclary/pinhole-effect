@@ -1,0 +1,18 @@
+{
+  "files": [
+    "README.md",
+    "pyproject.toml",
+    "LICENSE",
+    "environment.yml",
+    "claude_to_review/experiment.py",
+    "claude_to_review/sample.py",
+    "claude_to_review/experiment_v2.py",
+    "claude_to_review/source.py",
+    "src/pinhole_effect/experiment.py",
+    "src/pinhole_effect/sample.py",
+    "src/pinhole_effect/__init__.py",
+    "src/pinhole_effect/source.py",
+    ".github/workflows/testsuite.yml",
+    "tests/test_pinhole.py"
+  ]
+}

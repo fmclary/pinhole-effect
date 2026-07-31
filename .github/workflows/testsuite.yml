@@ -17,7 +17,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ["3.11", "3.12", "3.13"]
+        python-version: ["3.12", "3.13"]
     steps:
       - uses: actions/checkout@main
         with:
@@ -28,7 +28,7 @@ jobs:
         with:
           miniforge-version: latest
           python-version: ${{ env.PYTHON }}
-          environment-file: environment.yaml
+          environment-file: environment.yml
           activate-environment: ${{ env.ENV_NAME }}
           conda-remove-defaults: "true"
 

@@ -1,0 +1,1923 @@
+versions pytest-9.0.1, python-3.12.11.final.0
+invocation_dir=/home/fmclary/pinhole-effect
+cwd=/home/fmclary/pinhole-effect
+args=('-vvv', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x714abd267500>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x714abd267500>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x714abc8849e0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x714abc49eea0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+          plugin_name: 124565809470816
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x714abd267500>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/anyio/pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x714abc8849e0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x714abc49eea0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x714abc85f500>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x714abbd98da0>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x714abc7e09e0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+          plugin_name: 124565809470816
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x714abd267500>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/_pytest/subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/home/fmclary/miniforge3/lib/python3.12/site-packages/anyio/pytest_plugin.py'>
+          plugin_name: anyio
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x714abc8849e0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x714abc49eea0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x714abc85f500>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x714abbd98da0>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x714abc7e09e0>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x714abd264dd0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x714abcd31d60>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x714abd267500>
+          start_path: /home/fmclary/pinhole-effect
+          startdir: /home/fmclary/pinhole-effect
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: /home/fmclary/pinhole-effect', 'configfile: pyproject.toml', 'plugins: anyio-4.11.0'], 'cachedir: .pytest_cache', ['using: pytest-9.0.1', 'registered third-party plugins:', '  anyio-4.11.0 at /home/fmclary/miniforge3/lib/python3.12/site-packages/anyio/pytest_plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/home/fmclary/pinhole-effect'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=PosixPath('/home/fmclary/pinhole-effect'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: /home/fmclary/pinhole-effect
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir pinhole-effect> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir pinhole-effect> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir pinhole-effect>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir pinhole-effect>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/.git
+            path: /home/fmclary/pinhole-effect/.git
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/.github
+            path: /home/fmclary/pinhole-effect/.github
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/LICENSE
+            path: /home/fmclary/pinhole-effect/LICENSE
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir pinhole-effect>
+            file_path: /home/fmclary/pinhole-effect/LICENSE
+            path: /home/fmclary/pinhole-effect/LICENSE
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/README.md
+            path: /home/fmclary/pinhole-effect/README.md
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir pinhole-effect>
+            file_path: /home/fmclary/pinhole-effect/README.md
+            path: /home/fmclary/pinhole-effect/README.md
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/claude_to_review
+            path: /home/fmclary/pinhole-effect/claude_to_review
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /home/fmclary/pinhole-effect/claude_to_review
+            parent: <Dir pinhole-effect>
+        finish pytest_collect_directory --> <Dir claude_to_review> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/environment.yml
+            path: /home/fmclary/pinhole-effect/environment.yml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir pinhole-effect>
+            file_path: /home/fmclary/pinhole-effect/environment.yml
+            path: /home/fmclary/pinhole-effect/environment.yml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/pyproject.toml
+            path: /home/fmclary/pinhole-effect/pyproject.toml
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir pinhole-effect>
+            file_path: /home/fmclary/pinhole-effect/pyproject.toml
+            path: /home/fmclary/pinhole-effect/pyproject.toml
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/pytestdebug.log
+            path: /home/fmclary/pinhole-effect/pytestdebug.log
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir pinhole-effect>
+            file_path: /home/fmclary/pinhole-effect/pytestdebug.log
+            path: /home/fmclary/pinhole-effect/pytestdebug.log
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src
+            path: /home/fmclary/pinhole-effect/src
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /home/fmclary/pinhole-effect/src
+            parent: <Dir pinhole-effect>
+        finish pytest_collect_directory --> <Dir src> [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/tests
+            path: /home/fmclary/pinhole-effect/tests
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /home/fmclary/pinhole-effect/tests
+            parent: <Dir pinhole-effect>
+        finish pytest_collect_directory --> <Dir tests> [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=3 outcome='passed'> [hook]
+    genitems <Dir claude_to_review> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir claude_to_review>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir claude_to_review>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/claude_to_review/experiment.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/experiment.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir claude_to_review>
+            file_path: /home/fmclary/pinhole-effect/claude_to_review/experiment.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/experiment.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/claude_to_review/experiment_v2.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/experiment_v2.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir claude_to_review>
+            file_path: /home/fmclary/pinhole-effect/claude_to_review/experiment_v2.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/experiment_v2.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/claude_to_review/sample.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/sample.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir claude_to_review>
+            file_path: /home/fmclary/pinhole-effect/claude_to_review/sample.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/sample.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/claude_to_review/source.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/source.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir claude_to_review>
+            file_path: /home/fmclary/pinhole-effect/claude_to_review/source.py
+            path: /home/fmclary/pinhole-effect/claude_to_review/source.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'claude_to_review' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'claude_to_review' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir src> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir src>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir src>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src/pinhole_effect
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect
+            parent: <Dir src>
+        finish pytest_collect_directory --> <Package pinhole_effect> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'src' lenresult=1 outcome='passed'> [hook]
+    genitems <Package pinhole_effect> [collection]
+      pytest_collectstart [hook]
+          collector: <Package pinhole_effect>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package pinhole_effect>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src/pinhole_effect/__init__.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pinhole_effect>
+            file_path: /home/fmclary/pinhole-effect/src/pinhole_effect/__init__.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/__init__.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src/pinhole_effect/experiment.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/experiment.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pinhole_effect>
+            file_path: /home/fmclary/pinhole-effect/src/pinhole_effect/experiment.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/experiment.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src/pinhole_effect/sample.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/sample.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pinhole_effect>
+            file_path: /home/fmclary/pinhole-effect/src/pinhole_effect/sample.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/sample.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/src/pinhole_effect/source.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/source.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package pinhole_effect>
+            file_path: /home/fmclary/pinhole-effect/src/pinhole_effect/source.py
+            path: /home/fmclary/pinhole-effect/src/pinhole_effect/source.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'src/pinhole_effect' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'src/pinhole_effect' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'src' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            collection_path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+            path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+            path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+              path: /home/fmclary/pinhole-effect/tests/test_pinhole.py
+          finish pytest_pycollect_makemodule --> <Module test_pinhole.py> [hook]
+        finish pytest_collect_file --> [<Module test_pinhole.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=1 outcome='passed'> [hook]
+    genitems <Module test_pinhole.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_pinhole.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_pinhole.py>
+      find_module called for: test_pinhole [assertion]
+      matched test file '/home/fmclary/pinhole-effect/tests/test_pinhole.py' [assertion]
+      rewriting PosixPath('/home/fmclary/pinhole-effect/tests/test_pinhole.py') [assertion]
+      early skip of rewriting module: matplotlib [assertion]
+      early skip of rewriting module: packaging [assertion]
+      early skip of rewriting module: packaging.version [assertion]
+      early skip of rewriting module: packaging._structures [assertion]
+      early skip of rewriting module: matplotlib._api [assertion]
+      early skip of rewriting module: matplotlib._api.deprecation [assertion]
+      early skip of rewriting module: matplotlib._version [assertion]
+      early skip of rewriting module: matplotlib.cbook [assertion]
+      early skip of rewriting module: gzip [assertion]
+      early skip of rewriting module: numpy [assertion]
+      early skip of rewriting module: numpy.version [assertion]
+      early skip of rewriting module: numpy._expired_attrs_2_0 [assertion]
+      early skip of rewriting module: numpy._globals [assertion]
+      early skip of rewriting module: numpy._utils [assertion]
+      early skip of rewriting module: numpy._utils._convertions [assertion]
+      early skip of rewriting module: numpy._distributor_init [assertion]
+      early skip of rewriting module: numpy._distributor_init_local [assertion]
+      early skip of rewriting module: numpy.__config__ [assertion]
+      early skip of rewriting module: numpy._core [assertion]
+      early skip of rewriting module: numpy._core.multiarray [assertion]
+      early skip of rewriting module: numpy._core._multiarray_umath [assertion]
+      early skip of rewriting module: numpy.exceptions [assertion]
+      early skip of rewriting module: numpy._core._exceptions [assertion]
+      early skip of rewriting module: numpy._core.printoptions [assertion]
+      early skip of rewriting module: numpy.dtypes [assertion]
+      early skip of rewriting module: numpy._core.overrides [assertion]
+      early skip of rewriting module: numpy._utils._inspect [assertion]
+      early skip of rewriting module: numpy._core.umath [assertion]
+      early skip of rewriting module: numpy._core.numerictypes [assertion]
+      early skip of rewriting module: numpy._core._dtype [assertion]
+      early skip of rewriting module: numpy._core._string_helpers [assertion]
+      early skip of rewriting module: numpy._core._type_aliases [assertion]
+      early skip of rewriting module: numpy._core._machar [assertion]
+      early skip of rewriting module: numpy._core._ufunc_config [assertion]
+      early skip of rewriting module: numpy._core.fromnumeric [assertion]
+      early skip of rewriting module: numpy._core._methods [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: numpy._core.einsumfunc [assertion]
+      early skip of rewriting module: numpy._core.numeric [assertion]
+      early skip of rewriting module: numpy._core.shape_base [assertion]
+      early skip of rewriting module: numpy._core._asarray [assertion]
+      early skip of rewriting module: numpy._core.arrayprint [assertion]
+      early skip of rewriting module: numpy._core.function_base [assertion]
+      early skip of rewriting module: numpy._core.getlimits [assertion]
+      early skip of rewriting module: numpy._core.memmap [assertion]
+      early skip of rewriting module: numpy._core.records [assertion]
+      early skip of rewriting module: numpy._core._add_newdocs [assertion]
+      early skip of rewriting module: numpy._core._add_newdocs_scalars [assertion]
+      early skip of rewriting module: numpy._core._dtype_ctypes [assertion]
+      early skip of rewriting module: numpy._core._internal [assertion]
+      early skip of rewriting module: ctypes [assertion]
+      early skip of rewriting module: _ctypes [assertion]
+      early skip of rewriting module: ctypes._endian [assertion]
+      early skip of rewriting module: numpy._pytesttester [assertion]
+      early skip of rewriting module: numpy.lib [assertion]
+      early skip of rewriting module: numpy.lib._arraypad_impl [assertion]
+      early skip of rewriting module: numpy.lib._index_tricks_impl [assertion]
+      early skip of rewriting module: numpy.matrixlib [assertion]
+      early skip of rewriting module: numpy.matrixlib.defmatrix [assertion]
+      early skip of rewriting module: numpy.linalg [assertion]
+      early skip of rewriting module: numpy.linalg._linalg [assertion]
+      early skip of rewriting module: numpy._typing [assertion]
+      early skip of rewriting module: numpy._typing._array_like [assertion]
+      early skip of rewriting module: numpy._typing._nbit_base [assertion]
+      early skip of rewriting module: numpy._typing._nested_sequence [assertion]
+      early skip of rewriting module: numpy._typing._shape [assertion]
+      early skip of rewriting module: numpy._typing._char_codes [assertion]
+      early skip of rewriting module: numpy._typing._dtype_like [assertion]
+      early skip of rewriting module: numpy._typing._nbit [assertion]
+      early skip of rewriting module: numpy._typing._scalars [assertion]
+      early skip of rewriting module: numpy._typing._ufunc [assertion]
+      early skip of rewriting module: numpy.lib._twodim_base_impl [assertion]
+      early skip of rewriting module: numpy.lib._stride_tricks_impl [assertion]
+      early skip of rewriting module: numpy.lib.array_utils [assertion]
+      early skip of rewriting module: numpy.lib._array_utils_impl [assertion]
+      early skip of rewriting module: numpy.linalg._umath_linalg [assertion]
+      early skip of rewriting module: numpy.linalg.linalg [assertion]
+      early skip of rewriting module: numpy.lib._function_base_impl [assertion]
+      early skip of rewriting module: numpy.lib._histograms_impl [assertion]
+      early skip of rewriting module: numpy.lib.stride_tricks [assertion]
+      early skip of rewriting module: numpy.lib._arraysetops_impl [assertion]
+      early skip of rewriting module: numpy.lib._arrayterator_impl [assertion]
+      early skip of rewriting module: numpy.lib._nanfunctions_impl [assertion]
+      early skip of rewriting module: numpy.lib._npyio_impl [assertion]
+      early skip of rewriting module: numpy.lib.format [assertion]
+      early skip of rewriting module: numpy.lib._format_impl [assertion]
+      early skip of rewriting module: numpy.lib._utils_impl [assertion]
+      early skip of rewriting module: numpy.lib._datasource [assertion]
+      early skip of rewriting module: numpy.lib._iotools [assertion]
+      early skip of rewriting module: numpy.lib._polynomial_impl [assertion]
+      early skip of rewriting module: numpy.lib._type_check_impl [assertion]
+      early skip of rewriting module: numpy.lib._ufunclike_impl [assertion]
+      early skip of rewriting module: numpy.lib._shape_base_impl [assertion]
+      early skip of rewriting module: numpy.lib._version [assertion]
+      early skip of rewriting module: numpy.lib.introspect [assertion]
+      early skip of rewriting module: numpy.lib.mixins [assertion]
+      early skip of rewriting module: numpy.lib.npyio [assertion]
+      early skip of rewriting module: numpy.lib.scimath [assertion]
+      early skip of rewriting module: numpy.lib._scimath_impl [assertion]
+      early skip of rewriting module: numpy._array_api_info [assertion]
+      early skip of rewriting module: matplotlib._c_internal_utils [assertion]
+      early skip of rewriting module: matplotlib._docstring [assertion]
+      early skip of rewriting module: matplotlib.rcsetup [assertion]
+      early skip of rewriting module: matplotlib.backends [assertion]
+      early skip of rewriting module: matplotlib.backends.registry [assertion]
+      early skip of rewriting module: matplotlib.colors [assertion]
+      early skip of rewriting module: PIL [assertion]
+      early skip of rewriting module: PIL._version [assertion]
+      early skip of rewriting module: PIL.Image [assertion]
+      early skip of rewriting module: PIL.ExifTags [assertion]
+      early skip of rewriting module: PIL.ImageMode [assertion]
+      early skip of rewriting module: PIL._deprecate [assertion]
+      early skip of rewriting module: PIL.TiffTags [assertion]
+      early skip of rewriting module: PIL._binary [assertion]
+      early skip of rewriting module: PIL._util [assertion]
+      early skip of rewriting module: PIL._typing [assertion]
+      early skip of rewriting module: defusedxml [assertion]
+      early skip of rewriting module: defusedxml.common [assertion]
+      early skip of rewriting module: xml.parsers [assertion]
+      early skip of rewriting module: xml.parsers.expat [assertion]
+      early skip of rewriting module: defusedxml.ElementTree [assertion]
+      early skip of rewriting module: xml.etree.ElementTree [assertion]
+      early skip of rewriting module: PIL._imaging [assertion]
+      early skip of rewriting module: PIL.PngImagePlugin [assertion]
+      early skip of rewriting module: PIL.ImageChops [assertion]
+      early skip of rewriting module: PIL.ImageFile [assertion]
+      early skip of rewriting module: PIL.ImagePalette [assertion]
+      early skip of rewriting module: PIL.GimpGradientFile [assertion]
+      early skip of rewriting module: PIL.GimpPaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageColor [assertion]
+      early skip of rewriting module: PIL.PaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageSequence [assertion]
+      early skip of rewriting module: matplotlib._cm [assertion]
+      early skip of rewriting module: matplotlib.scale [assertion]
+      early skip of rewriting module: matplotlib.ticker [assertion]
+      early skip of rewriting module: matplotlib.transforms [assertion]
+      early skip of rewriting module: matplotlib._path [assertion]
+      early skip of rewriting module: matplotlib.path [assertion]
+      early skip of rewriting module: matplotlib.bezier [assertion]
+      early skip of rewriting module: matplotlib._image [assertion]
+      early skip of rewriting module: matplotlib._color_data [assertion]
+      early skip of rewriting module: matplotlib._fontconfig_pattern [assertion]
+      early skip of rewriting module: pyparsing [assertion]
+      early skip of rewriting module: pyparsing.util [assertion]
+      early skip of rewriting module: pyparsing.exceptions [assertion]
+      early skip of rewriting module: pyparsing.unicode [assertion]
+      early skip of rewriting module: pyparsing.actions [assertion]
+      early skip of rewriting module: pyparsing.results [assertion]
+      early skip of rewriting module: pyparsing.core [assertion]
+      early skip of rewriting module: pyparsing.helpers [assertion]
+      early skip of rewriting module: html [assertion]
+      early skip of rewriting module: html.entities [assertion]
+      early skip of rewriting module: pyparsing.testing [assertion]
+      early skip of rewriting module: pyparsing.common [assertion]
+      early skip of rewriting module: matplotlib._enums [assertion]
+      early skip of rewriting module: cycler [assertion]
+      early skip of rewriting module: matplotlib.ft2font [assertion]
+      early skip of rewriting module: dateutil [assertion]
+      early skip of rewriting module: dateutil._version [assertion]
+      early skip of rewriting module: kiwisolver [assertion]
+      early skip of rewriting module: kiwisolver._cext [assertion]
+      early skip of rewriting module: kiwisolver.exceptions [assertion]
+      early skip of rewriting module: numpy.ma [assertion]
+      early skip of rewriting module: numpy.ma.core [assertion]
+      early skip of rewriting module: numpy.ma.extras [assertion]
+      early skip of rewriting module: matplotlib.cm [assertion]
+      early skip of rewriting module: matplotlib.colorizer [assertion]
+      early skip of rewriting module: matplotlib.artist [assertion]
+      early skip of rewriting module: matplotlib._cm_listed [assertion]
+      early skip of rewriting module: matplotlib._cm_multivar [assertion]
+      early skip of rewriting module: matplotlib._cm_bivar [assertion]
+      early skip of rewriting module: matplotlib.pyplot [assertion]
+      early skip of rewriting module: matplotlib.image [assertion]
+      early skip of rewriting module: matplotlib.backend_bases [assertion]
+      early skip of rewriting module: matplotlib.backend_tools [assertion]
+      early skip of rewriting module: matplotlib._pylab_helpers [assertion]
+      early skip of rewriting module: matplotlib.text [assertion]
+      early skip of rewriting module: matplotlib.font_manager [assertion]
+      early skip of rewriting module: plistlib [assertion]
+      early skip of rewriting module: matplotlib._afm [assertion]
+      early skip of rewriting module: matplotlib._mathtext_data [assertion]
+      early skip of rewriting module: matplotlib.patches [assertion]
+      early skip of rewriting module: matplotlib.hatch [assertion]
+      early skip of rewriting module: matplotlib.lines [assertion]
+      early skip of rewriting module: matplotlib.markers [assertion]
+      early skip of rewriting module: matplotlib.textpath [assertion]
+      early skip of rewriting module: matplotlib._text_helpers [assertion]
+      early skip of rewriting module: matplotlib.dviread [assertion]
+      early skip of rewriting module: matplotlib.mathtext [assertion]
+      early skip of rewriting module: matplotlib._mathtext [assertion]
+      early skip of rewriting module: matplotlib.texmanager [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: matplotlib._tight_bbox [assertion]
+      early skip of rewriting module: matplotlib.widgets [assertion]
+      early skip of rewriting module: matplotlib.collections [assertion]
+      early skip of rewriting module: matplotlib.backend_managers [assertion]
+      early skip of rewriting module: matplotlib.layout_engine [assertion]
+      early skip of rewriting module: matplotlib._constrained_layout [assertion]
+      early skip of rewriting module: matplotlib._layoutgrid [assertion]
+      early skip of rewriting module: matplotlib._tight_layout [assertion]
+      early skip of rewriting module: matplotlib.style [assertion]
+      early skip of rewriting module: matplotlib.style.core [assertion]
+      early skip of rewriting module: matplotlib.figure [assertion]
+      early skip of rewriting module: matplotlib._blocking_input [assertion]
+      early skip of rewriting module: matplotlib.projections [assertion]
+      early skip of rewriting module: matplotlib.axes [assertion]
+      early skip of rewriting module: matplotlib.axes._base [assertion]
+      early skip of rewriting module: matplotlib.offsetbox [assertion]
+      early skip of rewriting module: matplotlib.axis [assertion]
+      early skip of rewriting module: matplotlib.units [assertion]
+      early skip of rewriting module: matplotlib.gridspec [assertion]
+      early skip of rewriting module: matplotlib.spines [assertion]
+      early skip of rewriting module: matplotlib.table [assertion]
+      early skip of rewriting module: matplotlib.axes._axes [assertion]
+      early skip of rewriting module: matplotlib.category [assertion]
+      early skip of rewriting module: dateutil.parser [assertion]
+      early skip of rewriting module: dateutil.parser._parser [assertion]
+      early skip of rewriting module: six [assertion]
+      early skip of rewriting module: dateutil.relativedelta [assertion]
+      early skip of rewriting module: dateutil._common [assertion]
+      early skip of rewriting module: dateutil.tz [assertion]
+      early skip of rewriting module: dateutil.tz.tz [assertion]
+      early skip of rewriting module: six.moves [assertion]
+      early skip of rewriting module: dateutil.tz._common [assertion]
+      early skip of rewriting module: dateutil.tz._factories [assertion]
+      early skip of rewriting module: dateutil.tz.win [assertion]
+      early skip of rewriting module: six.moves.winreg [assertion]
+      early skip of rewriting module: dateutil.parser.isoparser [assertion]
+      early skip of rewriting module: matplotlib.contour [assertion]
+      early skip of rewriting module: matplotlib.dates [assertion]
+      early skip of rewriting module: dateutil.rrule [assertion]
+      early skip of rewriting module: matplotlib.inset [assertion]
+      early skip of rewriting module: matplotlib.legend [assertion]
+      early skip of rewriting module: matplotlib.container [assertion]
+      early skip of rewriting module: matplotlib.legend_handler [assertion]
+      early skip of rewriting module: matplotlib.mlab [assertion]
+      early skip of rewriting module: matplotlib.quiver [assertion]
+      early skip of rewriting module: matplotlib.stackplot [assertion]
+      early skip of rewriting module: matplotlib.streamplot [assertion]
+      early skip of rewriting module: matplotlib.tri [assertion]
+      early skip of rewriting module: matplotlib.tri._triangulation [assertion]
+      early skip of rewriting module: matplotlib.tri._tricontour [assertion]
+      early skip of rewriting module: matplotlib.tri._trifinder [assertion]
+      early skip of rewriting module: matplotlib.tri._triinterpolate [assertion]
+      early skip of rewriting module: matplotlib.tri._tritools [assertion]
+      early skip of rewriting module: matplotlib.tri._tripcolor [assertion]
+      early skip of rewriting module: matplotlib.tri._triplot [assertion]
+      early skip of rewriting module: matplotlib.tri._trirefine [assertion]
+      early skip of rewriting module: matplotlib.axes._secondary_axes [assertion]
+      early skip of rewriting module: matplotlib.projections.geo [assertion]
+      early skip of rewriting module: matplotlib.projections.polar [assertion]
+      early skip of rewriting module: mpl_toolkits [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.axes3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.art3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.proj3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.axis3d [assertion]
+      early skip of rewriting module: matplotlib.colorbar [assertion]
+      early skip of rewriting module: pandas [assertion]
+      early skip of rewriting module: pytz [assertion]
+      early skip of rewriting module: pytz.exceptions [assertion]
+      early skip of rewriting module: pytz.lazy [assertion]
+      early skip of rewriting module: pytz.tzinfo [assertion]
+      early skip of rewriting module: pytz.tzfile [assertion]
+      early skip of rewriting module: pandas.compat [assertion]
+      early skip of rewriting module: pandas.compat._constants [assertion]
+      early skip of rewriting module: sysconfig [assertion]
+      early skip of rewriting module: _sysconfigdata__linux_x86_64-linux-gnu [assertion]
+      early skip of rewriting module: pandas.compat.compressors [assertion]
+      early skip of rewriting module: pandas.compat.numpy [assertion]
+      early skip of rewriting module: pandas.util [assertion]
+      early skip of rewriting module: pandas.util.version [assertion]
+      early skip of rewriting module: pandas.compat.pyarrow [assertion]
+      early skip of rewriting module: pyarrow [assertion]
+      early skip of rewriting module: pandas._config [assertion]
+      early skip of rewriting module: pandas._config.config [assertion]
+      early skip of rewriting module: pandas._typing [assertion]
+      early skip of rewriting module: numpy.random [assertion]
+      early skip of rewriting module: numpy.random._bounded_integers [assertion]
+      early skip of rewriting module: numpy.random.bit_generator [assertion]
+      early skip of rewriting module: numpy.random._common [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: numpy.random._pickle [assertion]
+      early skip of rewriting module: numpy.random._generator [assertion]
+      early skip of rewriting module: numpy.random._pcg64 [assertion]
+      early skip of rewriting module: numpy.random._mt19937 [assertion]
+      early skip of rewriting module: numpy.random._philox [assertion]
+      early skip of rewriting module: numpy.random._sfc64 [assertion]
+      early skip of rewriting module: numpy.random.mtrand [assertion]
+      early skip of rewriting module: pandas.util._exceptions [assertion]
+      early skip of rewriting module: pandas._config.dates [assertion]
+      early skip of rewriting module: pandas._config.display [assertion]
+      early skip of rewriting module: pandas.core [assertion]
+      early skip of rewriting module: pandas.core.config_init [assertion]
+      early skip of rewriting module: pandas.core.api [assertion]
+      early skip of rewriting module: pandas._libs [assertion]
+      early skip of rewriting module: pandas._libs.pandas_parser [assertion]
+      early skip of rewriting module: pandas._libs.pandas_datetime [assertion]
+      early skip of rewriting module: pandas._libs.interval [assertion]
+      early skip of rewriting module: pandas._libs.hashtable [assertion]
+      early skip of rewriting module: pandas._libs.missing [assertion]
+      early skip of rewriting module: pandas._libs.tslibs [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.dtypes [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.ccalendar [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.np_datetime [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.conversion [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.base [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.offsets [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timestamps [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.nattype [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timedeltas [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.timezones [assertion]
+      early skip of rewriting module: pandas.compat._optional [assertion]
+      early skip of rewriting module: zoneinfo [assertion]
+      early skip of rewriting module: zoneinfo._tzpath [assertion]
+      early skip of rewriting module: zoneinfo._common [assertion]
+      early skip of rewriting module: _zoneinfo [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.fields [assertion]
+      early skip of rewriting module: _strptime [assertion]
+      early skip of rewriting module: pandas._config.localization [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.tzconversion [assertion]
+      early skip of rewriting module: pandas._libs.properties [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.parsing [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.strptime [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.period [assertion]
+      early skip of rewriting module: pandas._libs.tslibs.vectorized [assertion]
+      early skip of rewriting module: pandas._libs.ops_dispatch [assertion]
+      early skip of rewriting module: pandas._libs.algos [assertion]
+      early skip of rewriting module: pandas.core.dtypes [assertion]
+      early skip of rewriting module: pandas.core.dtypes.dtypes [assertion]
+      early skip of rewriting module: pandas._libs.lib [assertion]
+      early skip of rewriting module: pyarrow [assertion]
+      early skip of rewriting module: pandas.errors [assertion]
+      early skip of rewriting module: pandas.core.dtypes.base [assertion]
+      early skip of rewriting module: pandas.core.dtypes.generic [assertion]
+      early skip of rewriting module: pandas.core.dtypes.inference [assertion]
+      early skip of rewriting module: pandas.core.dtypes.missing [assertion]
+      early skip of rewriting module: pandas.core.dtypes.common [assertion]
+      early skip of rewriting module: pandas.core.algorithms [assertion]
+      early skip of rewriting module: pandas.util._decorators [assertion]
+      early skip of rewriting module: pandas.core.dtypes.cast [assertion]
+      early skip of rewriting module: pandas.io [assertion]
+      early skip of rewriting module: pandas.io._util [assertion]
+      early skip of rewriting module: pandas.core.dtypes.concat [assertion]
+      early skip of rewriting module: pandas.core.dtypes.astype [assertion]
+      early skip of rewriting module: pandas.core.array_algos [assertion]
+      early skip of rewriting module: pandas.core.array_algos.take [assertion]
+      early skip of rewriting module: pandas.core.construction [assertion]
+      early skip of rewriting module: pandas.core.common [assertion]
+      early skip of rewriting module: pandas.core.indexers [assertion]
+      early skip of rewriting module: pandas.core.indexers.utils [assertion]
+      early skip of rewriting module: pandas.core.arrays [assertion]
+      early skip of rewriting module: pandas.core.arrays.arrow [assertion]
+      early skip of rewriting module: pandas.core.arrays.arrow.accessors [assertion]
+      early skip of rewriting module: pandas.core.arrays.arrow.array [assertion]
+      early skip of rewriting module: pandas.util._validators [assertion]
+      early skip of rewriting module: pandas.core.missing [assertion]
+      early skip of rewriting module: pandas.core.ops [assertion]
+      early skip of rewriting module: pandas.core.ops.array_ops [assertion]
+      early skip of rewriting module: pandas._libs.ops [assertion]
+      early skip of rewriting module: pandas.core.roperator [assertion]
+      early skip of rewriting module: pandas.core.computation [assertion]
+      early skip of rewriting module: pandas.core.computation.expressions [assertion]
+      early skip of rewriting module: pandas.core.computation.check [assertion]
+      early skip of rewriting module: numexpr [assertion]
+      early skip of rewriting module: pandas.core.ops.missing [assertion]
+      early skip of rewriting module: pandas.core.ops.dispatch [assertion]
+      early skip of rewriting module: pandas.core.ops.invalid [assertion]
+      early skip of rewriting module: pandas.core.ops.common [assertion]
+      early skip of rewriting module: pandas.core.ops.docstrings [assertion]
+      early skip of rewriting module: pandas.core.ops.mask_ops [assertion]
+      early skip of rewriting module: pandas.core.arraylike [assertion]
+      early skip of rewriting module: pandas.core.arrays._arrow_string_mixins [assertion]
+      early skip of rewriting module: pandas.core.arrays._utils [assertion]
+      early skip of rewriting module: pandas.core.arrays.base [assertion]
+      early skip of rewriting module: pandas.compat.numpy.function [assertion]
+      early skip of rewriting module: pandas.core.array_algos.quantile [assertion]
+      early skip of rewriting module: pandas.core.sorting [assertion]
+      early skip of rewriting module: pandas.core.arrays.masked [assertion]
+      early skip of rewriting module: pandas.core.nanops [assertion]
+      early skip of rewriting module: bottleneck [assertion]
+      early skip of rewriting module: pandas.core.array_algos.masked_accumulations [assertion]
+      early skip of rewriting module: pandas.core.array_algos.masked_reductions [assertion]
+      early skip of rewriting module: pandas.core.util [assertion]
+      early skip of rewriting module: pandas.core.util.hashing [assertion]
+      early skip of rewriting module: pandas._libs.hashing [assertion]
+      early skip of rewriting module: pandas.core.arrays.string_ [assertion]
+      early skip of rewriting module: pandas._libs.arrays [assertion]
+      early skip of rewriting module: pandas.core.arrays.floating [assertion]
+      early skip of rewriting module: pandas.core.arrays.numeric [assertion]
+      early skip of rewriting module: pandas.core.arrays.integer [assertion]
+      early skip of rewriting module: pandas.core.arrays.numpy_ [assertion]
+      early skip of rewriting module: pandas.core.arrays._mixins [assertion]
+      early skip of rewriting module: pandas.core.array_algos.transforms [assertion]
+      early skip of rewriting module: pandas.core.strings [assertion]
+      early skip of rewriting module: pandas.core.strings.object_array [assertion]
+      early skip of rewriting module: pandas.core.strings.base [assertion]
+      early skip of rewriting module: pandas.io.formats [assertion]
+      early skip of rewriting module: pandas.io.formats.printing [assertion]
+      early skip of rewriting module: pandas.io.formats.console [assertion]
+      early skip of rewriting module: pandas.tseries [assertion]
+      early skip of rewriting module: pandas.tseries.frequencies [assertion]
+      early skip of rewriting module: pandas.core.arrays.boolean [assertion]
+      early skip of rewriting module: pandas.core.arrays.categorical [assertion]
+      early skip of rewriting module: pandas.core.accessor [assertion]
+      early skip of rewriting module: pandas.core.base [assertion]
+      early skip of rewriting module: pandas.core.arrays.datetimes [assertion]
+      early skip of rewriting module: pandas._libs.tslib [assertion]
+      early skip of rewriting module: pandas.core.arrays.datetimelike [assertion]
+      early skip of rewriting module: pandas.core.array_algos.datetimelike_accumulations [assertion]
+      early skip of rewriting module: pandas.core.arrays._ranges [assertion]
+      early skip of rewriting module: pandas.tseries.offsets [assertion]
+      early skip of rewriting module: pandas.core.arrays.interval [assertion]
+      early skip of rewriting module: pandas.core.arrays.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.arrays.period [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse.accessor [assertion]
+      early skip of rewriting module: pandas.core.arrays.sparse.array [assertion]
+      early skip of rewriting module: pandas._libs.sparse [assertion]
+      early skip of rewriting module: pandas.core.arrays.string_arrow [assertion]
+      early skip of rewriting module: pandas.core.flags [assertion]
+      early skip of rewriting module: pandas.core.groupby [assertion]
+      early skip of rewriting module: pandas.core.groupby.generic [assertion]
+      early skip of rewriting module: pandas.core.apply [assertion]
+      early skip of rewriting module: pandas._libs.internals [assertion]
+      early skip of rewriting module: pandas.core._numba [assertion]
+      early skip of rewriting module: pandas.core._numba.executor [assertion]
+      early skip of rewriting module: pandas.core.frame [assertion]
+      early skip of rewriting module: pandas.core.generic [assertion]
+      early skip of rewriting module: pandas.core.indexing [assertion]
+      early skip of rewriting module: pandas._libs.indexing [assertion]
+      early skip of rewriting module: pandas.core.indexes [assertion]
+      early skip of rewriting module: pandas.core.indexes.api [assertion]
+      early skip of rewriting module: pandas.core.indexes.base [assertion]
+      early skip of rewriting module: pandas._libs.index [assertion]
+      early skip of rewriting module: pandas._libs.writers [assertion]
+      early skip of rewriting module: pandas._libs.join [assertion]
+      early skip of rewriting module: pandas.core.array_algos.putmask [assertion]
+      early skip of rewriting module: pandas.core.indexes.frozen [assertion]
+      early skip of rewriting module: pandas.core.strings.accessor [assertion]
+      early skip of rewriting module: pandas.core.indexes.category [assertion]
+      early skip of rewriting module: pandas.core.indexes.extension [assertion]
+      early skip of rewriting module: pandas.core.indexes.datetimes [assertion]
+      early skip of rewriting module: pandas.core.indexes.datetimelike [assertion]
+      early skip of rewriting module: pandas.core.indexes.range [assertion]
+      early skip of rewriting module: pandas.core.tools [assertion]
+      early skip of rewriting module: pandas.core.tools.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.tools.times [assertion]
+      early skip of rewriting module: pandas.core.indexes.interval [assertion]
+      early skip of rewriting module: pandas.core.indexes.multi [assertion]
+      early skip of rewriting module: pandas.core.indexes.timedeltas [assertion]
+      early skip of rewriting module: pandas.core.indexes.period [assertion]
+      early skip of rewriting module: pandas.core.sample [assertion]
+      early skip of rewriting module: pandas.core.array_algos.replace [assertion]
+      early skip of rewriting module: pandas.core.internals [assertion]
+      early skip of rewriting module: pandas.core.internals.api [assertion]
+      early skip of rewriting module: pandas.core.internals.blocks [assertion]
+      early skip of rewriting module: pandas.core.internals.array_manager [assertion]
+      early skip of rewriting module: pandas.core.internals.base [assertion]
+      early skip of rewriting module: pandas.core.internals.managers [assertion]
+      early skip of rewriting module: pandas.core.internals.ops [assertion]
+      early skip of rewriting module: pandas.core.internals.concat [assertion]
+      early skip of rewriting module: pandas.core.internals.construction [assertion]
+      early skip of rewriting module: pandas.core.methods [assertion]
+      early skip of rewriting module: pandas.core.methods.describe [assertion]
+      early skip of rewriting module: pandas.core.reshape [assertion]
+      early skip of rewriting module: pandas.core.reshape.concat [assertion]
+      early skip of rewriting module: pandas.io.formats.format [assertion]
+      early skip of rewriting module: pandas.io.common [assertion]
+      early skip of rewriting module: mmap [assertion]
+      early skip of rewriting module: tarfile [assertion]
+      early skip of rewriting module: pwd [assertion]
+      early skip of rewriting module: grp [assertion]
+      early skip of rewriting module: pandas.core.shared_docs [assertion]
+      early skip of rewriting module: pandas.core.window [assertion]
+      early skip of rewriting module: pandas.core.window.ewm [assertion]
+      early skip of rewriting module: pandas._libs.window [assertion]
+      early skip of rewriting module: pandas._libs.window.aggregations [assertion]
+      early skip of rewriting module: pandas.core.indexers.objects [assertion]
+      early skip of rewriting module: pandas._libs.window.indexers [assertion]
+      early skip of rewriting module: pandas.core.util.numba_ [assertion]
+      early skip of rewriting module: pandas.core.window.common [assertion]
+      early skip of rewriting module: pandas.core.window.doc [assertion]
+      early skip of rewriting module: pandas.core.window.numba_ [assertion]
+      early skip of rewriting module: pandas.core.window.online [assertion]
+      early skip of rewriting module: pandas.core.window.rolling [assertion]
+      early skip of rewriting module: pandas.core.window.expanding [assertion]
+      early skip of rewriting module: pandas.core.methods.selectn [assertion]
+      early skip of rewriting module: pandas.core.reshape.melt [assertion]
+      early skip of rewriting module: pandas.core.reshape.util [assertion]
+      early skip of rewriting module: pandas.core.tools.numeric [assertion]
+      early skip of rewriting module: pandas.core.series [assertion]
+      early skip of rewriting module: pandas._libs.reshape [assertion]
+      early skip of rewriting module: pandas.core.indexes.accessors [assertion]
+      early skip of rewriting module: pandas.core.tools.datetimes [assertion]
+      early skip of rewriting module: pandas.arrays [assertion]
+      early skip of rewriting module: pandas.io.formats.info [assertion]
+      early skip of rewriting module: pandas.plotting [assertion]
+      early skip of rewriting module: pandas.plotting._core [assertion]
+      early skip of rewriting module: pandas.plotting._misc [assertion]
+      early skip of rewriting module: pandas.core.groupby.base [assertion]
+      early skip of rewriting module: pandas.core.groupby.ops [assertion]
+      early skip of rewriting module: pandas._libs.groupby [assertion]
+      early skip of rewriting module: pandas.core.groupby.grouper [assertion]
+      early skip of rewriting module: pandas.core.groupby.categorical [assertion]
+      early skip of rewriting module: pandas.core.groupby.groupby [assertion]
+      early skip of rewriting module: pandas.core.groupby.numba_ [assertion]
+      early skip of rewriting module: pandas.core.groupby.indexing [assertion]
+      early skip of rewriting module: pandas.tseries.api [assertion]
+      early skip of rewriting module: pandas.core.computation.api [assertion]
+      early skip of rewriting module: pandas.core.computation.eval [assertion]
+      early skip of rewriting module: pandas.core.computation.engines [assertion]
+      early skip of rewriting module: pandas.core.computation.align [assertion]
+      early skip of rewriting module: pandas.core.computation.common [assertion]
+      early skip of rewriting module: pandas.core.computation.ops [assertion]
+      early skip of rewriting module: pandas.core.computation.scope [assertion]
+      early skip of rewriting module: pandas.core.computation.expr [assertion]
+      early skip of rewriting module: pandas.core.computation.parsing [assertion]
+      early skip of rewriting module: pandas.core.reshape.api [assertion]
+      early skip of rewriting module: pandas.core.reshape.encoding [assertion]
+      early skip of rewriting module: pandas.core.reshape.merge [assertion]
+      early skip of rewriting module: pandas.core.reshape.pivot [assertion]
+      early skip of rewriting module: pandas.core.reshape.tile [assertion]
+      early skip of rewriting module: pandas.api [assertion]
+      early skip of rewriting module: pandas.api.extensions [assertion]
+      early skip of rewriting module: pandas.api.indexers [assertion]
+      early skip of rewriting module: pandas.api.interchange [assertion]
+      early skip of rewriting module: pandas.core.interchange [assertion]
+      early skip of rewriting module: pandas.core.interchange.dataframe_protocol [assertion]
+      early skip of rewriting module: pandas.core.interchange.from_dataframe [assertion]
+      early skip of rewriting module: pandas.core.interchange.utils [assertion]
+      early skip of rewriting module: pandas.api.types [assertion]
+      early skip of rewriting module: pandas.core.dtypes.api [assertion]
+      early skip of rewriting module: pandas.api.typing [assertion]
+      early skip of rewriting module: pandas.core.resample [assertion]
+      early skip of rewriting module: pandas.io.json [assertion]
+      early skip of rewriting module: pandas.io.json._json [assertion]
+      early skip of rewriting module: pandas._libs.json [assertion]
+      early skip of rewriting module: pandas.io.json._normalize [assertion]
+      early skip of rewriting module: pandas.io.json._table_schema [assertion]
+      early skip of rewriting module: pandas.io.parsers [assertion]
+      early skip of rewriting module: pandas.io.parsers.readers [assertion]
+      early skip of rewriting module: pandas._libs.parsers [assertion]
+      early skip of rewriting module: pandas.io.parsers.arrow_parser_wrapper [assertion]
+      early skip of rewriting module: pandas.io.parsers.base_parser [assertion]
+      early skip of rewriting module: pandas.io.parsers.c_parser_wrapper [assertion]
+      early skip of rewriting module: pandas.io.parsers.python_parser [assertion]
+      early skip of rewriting module: pandas.io.stata [assertion]
+      early skip of rewriting module: pandas.testing [assertion]
+      early skip of rewriting module: pandas._testing [assertion]
+      early skip of rewriting module: pandas._testing._io [assertion]
+      early skip of rewriting module: pandas._testing.contexts [assertion]
+      early skip of rewriting module: pandas._testing._warnings [assertion]
+      early skip of rewriting module: pandas._testing.asserters [assertion]
+      early skip of rewriting module: pandas._libs.testing [assertion]
+      early skip of rewriting module: cmath [assertion]
+      early skip of rewriting module: pandas._testing.compat [assertion]
+      early skip of rewriting module: pandas.util._print_versions [assertion]
+      early skip of rewriting module: pandas.io.api [assertion]
+      early skip of rewriting module: pandas.io.clipboards [assertion]
+      early skip of rewriting module: pandas.io.excel [assertion]
+      early skip of rewriting module: pandas.io.excel._base [assertion]
+      early skip of rewriting module: pandas.io.excel._util [assertion]
+      early skip of rewriting module: pandas.io.excel._calamine [assertion]
+      early skip of rewriting module: pandas.io.excel._odfreader [assertion]
+      early skip of rewriting module: pandas.io.excel._openpyxl [assertion]
+      early skip of rewriting module: pandas.io.excel._pyxlsb [assertion]
+      early skip of rewriting module: pandas.io.excel._xlrd [assertion]
+      early skip of rewriting module: pandas.io.excel._odswriter [assertion]
+      early skip of rewriting module: pandas.io.excel._xlsxwriter [assertion]
+      early skip of rewriting module: pandas.io.feather_format [assertion]
+      early skip of rewriting module: pandas.io.gbq [assertion]
+      early skip of rewriting module: pandas.io.html [assertion]
+      early skip of rewriting module: pandas.io.orc [assertion]
+      early skip of rewriting module: pandas.io.parquet [assertion]
+      early skip of rewriting module: pandas.io.pickle [assertion]
+      early skip of rewriting module: pandas.compat.pickle_compat [assertion]
+      early skip of rewriting module: pandas.io.pytables [assertion]
+      early skip of rewriting module: pandas.core.computation.pytables [assertion]
+      early skip of rewriting module: pandas.io.sas [assertion]
+      early skip of rewriting module: pandas.io.sas.sasreader [assertion]
+      early skip of rewriting module: pandas.io.spss [assertion]
+      early skip of rewriting module: pandas.io.sql [assertion]
+      early skip of rewriting module: pandas.io.xml [assertion]
+      early skip of rewriting module: pandas.util._tester [assertion]
+      early skip of rewriting module: pandas._version_meson [assertion]
+      early skip of rewriting module: scipy [assertion]
+      early skip of rewriting module: scipy.__config__ [assertion]
+      early skip of rewriting module: scipy.version [assertion]
+      early skip of rewriting module: scipy._distributor_init [assertion]
+      early skip of rewriting module: scipy._distributor_init_local [assertion]
+      early skip of rewriting module: scipy._lib [assertion]
+      early skip of rewriting module: scipy._lib._testutils [assertion]
+      early skip of rewriting module: cython [assertion]
+      early skip of rewriting module: scipy._lib._pep440 [assertion]
+      early skip of rewriting module: scipy._lib._ccallback [assertion]
+      early skip of rewriting module: scipy._lib._ccallback_c [assertion]
+      early skip of rewriting module: scipy.stats [assertion]
+      early skip of rewriting module: scipy.stats._warnings_errors [assertion]
+      early skip of rewriting module: scipy.stats._stats_py [assertion]
+      early skip of rewriting module: scipy.sparse [assertion]
+      early skip of rewriting module: scipy.sparse._base [assertion]
+      early skip of rewriting module: scipy.sparse._sputils [assertion]
+      early skip of rewriting module: scipy._lib._util [assertion]
+      early skip of rewriting module: scipy._lib._array_api [assertion]
+      early skip of rewriting module: numpy.typing [assertion]
+      early skip of rewriting module: numpy._typing._add_docstring [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._helpers [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._typing [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy [assertion]
+      early skip of rewriting module: numpy.char [assertion]
+      early skip of rewriting module: numpy._core.defchararray [assertion]
+      early skip of rewriting module: numpy._core.strings [assertion]
+      early skip of rewriting module: numpy.strings [assertion]
+      early skip of rewriting module: numpy.f2py [assertion]
+      early skip of rewriting module: numpy.f2py.diagnose [assertion]
+      early skip of rewriting module: numpy.f2py.f2py2e [assertion]
+      early skip of rewriting module: numpy.f2py._backends [assertion]
+      early skip of rewriting module: numpy.f2py.__version__ [assertion]
+      early skip of rewriting module: numpy.f2py.auxfuncs [assertion]
+      early skip of rewriting module: numpy.f2py.cfuncs [assertion]
+      early skip of rewriting module: numpy.f2py.capi_maps [assertion]
+      early skip of rewriting module: numpy.f2py.cb_rules [assertion]
+      early skip of rewriting module: numpy.f2py._isocbind [assertion]
+      early skip of rewriting module: numpy.f2py.crackfortran [assertion]
+      early skip of rewriting module: fileinput [assertion]
+      early skip of rewriting module: charset_normalizer [assertion]
+      early skip of rewriting module: charset_normalizer.api [assertion]
+      early skip of rewriting module: charset_normalizer.cd [assertion]
+      early skip of rewriting module: charset_normalizer.constant [assertion]
+      early skip of rewriting module: charset_normalizer.md [assertion]
+      early skip of rewriting module: charset_normalizer.utils [assertion]
+      early skip of rewriting module: _multibytecodec [assertion]
+      early skip of rewriting module: charset_normalizer.models [assertion]
+      early skip of rewriting module: charset_normalizer.legacy [assertion]
+      early skip of rewriting module: charset_normalizer.version [assertion]
+      early skip of rewriting module: numpy.f2py.symbolic [assertion]
+      early skip of rewriting module: numpy.f2py.f90mod_rules [assertion]
+      early skip of rewriting module: numpy.f2py.func2subr [assertion]
+      early skip of rewriting module: numpy.f2py.rules [assertion]
+      early skip of rewriting module: numpy.f2py.common_rules [assertion]
+      early skip of rewriting module: numpy.f2py.use_rules [assertion]
+      early skip of rewriting module: numpy.rec [assertion]
+      early skip of rewriting module: numpy.core [assertion]
+      early skip of rewriting module: numpy.core._utils [assertion]
+      early skip of rewriting module: numpy.fft [assertion]
+      early skip of rewriting module: numpy.fft._helper [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft_umath [assertion]
+      early skip of rewriting module: numpy.fft.helper [assertion]
+      early skip of rewriting module: numpy.ctypeslib [assertion]
+      early skip of rewriting module: numpy.ctypeslib._ctypeslib [assertion]
+      early skip of rewriting module: numpy.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.chebyshev [assertion]
+      early skip of rewriting module: numpy.polynomial.polyutils [assertion]
+      early skip of rewriting module: numpy.polynomial._polybase [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite_e [assertion]
+      early skip of rewriting module: numpy.polynomial.laguerre [assertion]
+      early skip of rewriting module: numpy.polynomial.legendre [assertion]
+      early skip of rewriting module: numpy.polynomial.polynomial [assertion]
+      early skip of rewriting module: numpy.testing [assertion]
+      early skip of rewriting module: numpy.testing._private [assertion]
+      early skip of rewriting module: numpy.testing.overrides [assertion]
+      early skip of rewriting module: numpy.testing._private.extbuild [assertion]
+      early skip of rewriting module: numpy.testing._private.utils [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy._aliases [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat._internal [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._aliases [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy._info [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy._typing [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy.linalg [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._linalg [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.numpy.fft [assertion]
+      early skip of rewriting module: scipy._lib.array_api_compat.common._fft [assertion]
+      early skip of rewriting module: scipy._lib._sparse [assertion]
+      early skip of rewriting module: scipy._lib._docscrape [assertion]
+      early skip of rewriting module: pydoc [assertion]
+      early skip of rewriting module: pkgutil [assertion]
+      early skip of rewriting module: scipy.sparse._matrix [assertion]
+      early skip of rewriting module: scipy.sparse._csr [assertion]
+      early skip of rewriting module: scipy.sparse._sparsetools [assertion]
+      early skip of rewriting module: scipy.sparse._compressed [assertion]
+      early skip of rewriting module: scipy.sparse._data [assertion]
+      early skip of rewriting module: scipy.sparse._index [assertion]
+      early skip of rewriting module: scipy.sparse._csc [assertion]
+      early skip of rewriting module: scipy.sparse._lil [assertion]
+      early skip of rewriting module: scipy.sparse._csparsetools [assertion]
+      early skip of rewriting module: scipy._cyutility [assertion]
+      early skip of rewriting module: scipy.sparse._dok [assertion]
+      early skip of rewriting module: scipy.sparse._coo [assertion]
+      early skip of rewriting module: scipy.sparse._dia [assertion]
+      early skip of rewriting module: scipy.sparse._bsr [assertion]
+      early skip of rewriting module: scipy.sparse._construct [assertion]
+      early skip of rewriting module: scipy.sparse._extract [assertion]
+      early skip of rewriting module: scipy.sparse._matrix_io [assertion]
+      early skip of rewriting module: scipy.sparse.base [assertion]
+      early skip of rewriting module: scipy._lib.deprecation [assertion]
+      early skip of rewriting module: scipy.sparse.bsr [assertion]
+      early skip of rewriting module: scipy.sparse.compressed [assertion]
+      early skip of rewriting module: scipy.sparse.construct [assertion]
+      early skip of rewriting module: scipy.sparse.coo [assertion]
+      early skip of rewriting module: scipy.sparse.csc [assertion]
+      early skip of rewriting module: scipy.sparse.csr [assertion]
+      early skip of rewriting module: scipy.sparse.data [assertion]
+      early skip of rewriting module: scipy.sparse.dia [assertion]
+      early skip of rewriting module: scipy.sparse.dok [assertion]
+      early skip of rewriting module: scipy.sparse.extract [assertion]
+      early skip of rewriting module: scipy.sparse.lil [assertion]
+      early skip of rewriting module: scipy.sparse.sparsetools [assertion]
+      early skip of rewriting module: scipy.sparse.sputils [assertion]
+      early skip of rewriting module: scipy.spatial [assertion]
+      early skip of rewriting module: scipy.spatial._kdtree [assertion]
+      early skip of rewriting module: scipy.spatial._ckdtree [assertion]
+      early skip of rewriting module: scipy.spatial._qhull [assertion]
+      early skip of rewriting module: scipy._lib.messagestream [assertion]
+      early skip of rewriting module: scipy.linalg [assertion]
+      early skip of rewriting module: scipy.linalg._misc [assertion]
+      early skip of rewriting module: scipy.linalg.blas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas [assertion]
+      early skip of rewriting module: scipy.linalg._cblas [assertion]
+      early skip of rewriting module: scipy.linalg._fblas_64 [assertion]
+      early skip of rewriting module: scipy.linalg.lapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack [assertion]
+      early skip of rewriting module: scipy.linalg._clapack [assertion]
+      early skip of rewriting module: scipy.linalg._flapack_64 [assertion]
+      early skip of rewriting module: scipy.linalg._cythonized_array_utils [assertion]
+      early skip of rewriting module: scipy.linalg.cython_lapack [assertion]
+      early skip of rewriting module: scipy.linalg._basic [assertion]
+      early skip of rewriting module: scipy.linalg._decomp [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_svd [assertion]
+      early skip of rewriting module: scipy.linalg._solve_toeplitz [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_lu [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_lu_cython [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_ldl [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_cholesky [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_qr [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_qz [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_schur [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_polar [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs [assertion]
+      early skip of rewriting module: scipy.linalg._expm_frechet [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_schur_sqrtm [assertion]
+      early skip of rewriting module: scipy.linalg._matfuncs_expm [assertion]
+      early skip of rewriting module: scipy.linalg._linalg_pythran [assertion]
+      early skip of rewriting module: scipy.linalg._special_matrices [assertion]
+      early skip of rewriting module: scipy.linalg._solvers [assertion]
+      early skip of rewriting module: scipy.linalg._procrustes [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_update [assertion]
+      early skip of rewriting module: scipy.linalg.cython_blas [assertion]
+      early skip of rewriting module: scipy.linalg._sketches [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_cossin [assertion]
+      early skip of rewriting module: scipy.linalg.decomp [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_cholesky [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_lu [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_qr [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_svd [assertion]
+      early skip of rewriting module: scipy.linalg.decomp_schur [assertion]
+      early skip of rewriting module: scipy.linalg.basic [assertion]
+      early skip of rewriting module: scipy.linalg.misc [assertion]
+      early skip of rewriting module: scipy.linalg.special_matrices [assertion]
+      early skip of rewriting module: scipy.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.spatial._spherical_voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._voronoi [assertion]
+      early skip of rewriting module: scipy.spatial._plotutils [assertion]
+      early skip of rewriting module: scipy._lib.decorator [assertion]
+      early skip of rewriting module: scipy.spatial._procrustes [assertion]
+      early skip of rewriting module: scipy.spatial._geometric_slerp [assertion]
+      early skip of rewriting module: scipy.spatial.distance [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._delegation [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._funcs [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._at [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._utils [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._utils._compat [assertion]
+      early skip of rewriting module: scipy._lib._array_api_compat_vendor [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._utils._helpers [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._utils._typing [assertion]
+      early skip of rewriting module: scipy._lib.array_api_extra._lib._lazy [assertion]
+      early skip of rewriting module: scipy.special [assertion]
+      early skip of rewriting module: scipy.special._sf_error [assertion]
+      early skip of rewriting module: scipy.special._ufuncs [assertion]
+      early skip of rewriting module: scipy.special._ufuncs_cxx [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm_2 [assertion]
+      early skip of rewriting module: scipy.special._special_ufuncs [assertion]
+      early skip of rewriting module: scipy.special._gufuncs [assertion]
+      early skip of rewriting module: scipy.special._support_alternative_backends [assertion]
+      early skip of rewriting module: scipy.special._basic [assertion]
+      early skip of rewriting module: scipy.special._input_validation [assertion]
+      early skip of rewriting module: scipy.special._specfun [assertion]
+      early skip of rewriting module: scipy.special._comb [assertion]
+      early skip of rewriting module: scipy.special._multiufuncs [assertion]
+      early skip of rewriting module: scipy.special._logsumexp [assertion]
+      early skip of rewriting module: scipy.special._orthogonal [assertion]
+      early skip of rewriting module: scipy.special._spfun_stats [assertion]
+      early skip of rewriting module: scipy.special._ellip_harm [assertion]
+      early skip of rewriting module: scipy.special._lambertw [assertion]
+      early skip of rewriting module: scipy.special._spherical_bessel [assertion]
+      early skip of rewriting module: scipy.special.add_newdocs [assertion]
+      early skip of rewriting module: scipy.special.basic [assertion]
+      early skip of rewriting module: scipy.special.orthogonal [assertion]
+      early skip of rewriting module: scipy.special.specfun [assertion]
+      early skip of rewriting module: scipy.special.sf_error [assertion]
+      early skip of rewriting module: scipy.special.spfun_stats [assertion]
+      early skip of rewriting module: scipy.spatial._hausdorff [assertion]
+      early skip of rewriting module: scipy.spatial._distance_pybind [assertion]
+      early skip of rewriting module: scipy.spatial._distance_wrap [assertion]
+      early skip of rewriting module: scipy.spatial.ckdtree [assertion]
+      early skip of rewriting module: scipy.spatial.kdtree [assertion]
+      early skip of rewriting module: scipy.spatial.qhull [assertion]
+      early skip of rewriting module: scipy.spatial.transform [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rigid_transform [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_groups [assertion]
+      early skip of rewriting module: scipy.constants [assertion]
+      early skip of rewriting module: scipy.constants._codata [assertion]
+      early skip of rewriting module: scipy.constants._constants [assertion]
+      early skip of rewriting module: scipy.constants.codata [assertion]
+      early skip of rewriting module: scipy.constants.constants [assertion]
+      early skip of rewriting module: scipy.spatial.transform._rotation_spline [assertion]
+      early skip of rewriting module: scipy.spatial.transform.rotation [assertion]
+      early skip of rewriting module: scipy.optimize [assertion]
+      early skip of rewriting module: scipy.optimize._optimize [assertion]
+      early skip of rewriting module: scipy.sparse.linalg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.iterative [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._interface [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.utils [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.minres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lgmres [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve._gcrotmk [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lsqr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.lsmr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._isolve.tfqmr [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve.linsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve._superlu [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._dsolve._add_newdocs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack.arpack [assertion]
+      early skip of rewriting module: scipy._lib._threadsafety [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.arpack._arpack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen.lobpcg.lobpcg [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._eigen._svds [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._svdp [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._spropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._dpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._cpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._propack._zpropack [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._matfuncs [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._expm_multiply [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._onenormest [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._norm [assertion]
+      early skip of rewriting module: scipy.sparse.linalg._special_sparse_arrays [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.isolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.dsolve [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.interface [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.eigen [assertion]
+      early skip of rewriting module: scipy.sparse.linalg.matfuncs [assertion]
+      early skip of rewriting module: scipy.optimize._linesearch [assertion]
+      early skip of rewriting module: scipy.optimize._dcsrch [assertion]
+      early skip of rewriting module: scipy.optimize._numdiff [assertion]
+      early skip of rewriting module: scipy.optimize._group_columns [assertion]
+      early skip of rewriting module: scipy.optimize._differentiable_functions [assertion]
+      early skip of rewriting module: scipy.optimize._hessian_update_strategy [assertion]
+      early skip of rewriting module: scipy.optimize._minimize [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_dogleg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_ncg [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_krylov [assertion]
+      early skip of rewriting module: scipy.optimize._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trlib._trlib [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_exact [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.minimize_trustregion_constr [assertion]
+      early skip of rewriting module: scipy.optimize._constraints [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.equality_constrained_sqp [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.projections [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.qp_subproblem [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.canonical_constraint [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.tr_interior_point [assertion]
+      early skip of rewriting module: scipy.optimize._trustregion_constr.report [assertion]
+      early skip of rewriting module: scipy.optimize._lbfgsb_py [assertion]
+      early skip of rewriting module: scipy.optimize._lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize._tnc [assertion]
+      early skip of rewriting module: scipy.optimize._moduleTNC [assertion]
+      early skip of rewriting module: scipy.optimize._cobyla_py [assertion]
+      early skip of rewriting module: scipy.optimize._cobyqa_py [assertion]
+      early skip of rewriting module: scipy.optimize._slsqp_py [assertion]
+      early skip of rewriting module: scipy.optimize._slsqplib [assertion]
+      early skip of rewriting module: scipy.optimize._root [assertion]
+      early skip of rewriting module: scipy.optimize._minpack_py [assertion]
+      early skip of rewriting module: scipy.optimize._minpack [assertion]
+      early skip of rewriting module: scipy.optimize._lsq [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.least_squares [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.common [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.dogbox [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.lsq_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.trf_linear [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.givens_elimination [assertion]
+      early skip of rewriting module: scipy.optimize._lsq.bvls [assertion]
+      early skip of rewriting module: scipy.optimize._spectral [assertion]
+      early skip of rewriting module: scipy.optimize._nonlin [assertion]
+      early skip of rewriting module: scipy.optimize._root_scalar [assertion]
+      early skip of rewriting module: scipy.optimize._zeros_py [assertion]
+      early skip of rewriting module: scipy.optimize._zeros [assertion]
+      early skip of rewriting module: scipy.optimize._nnls [assertion]
+      early skip of rewriting module: scipy.optimize._basinhopping [assertion]
+      early skip of rewriting module: scipy.optimize._linprog [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_highs [assertion]
+      early skip of rewriting module: scipy.optimize._highspy [assertion]
+      early skip of rewriting module: scipy.optimize._highspy._highs_wrapper [assertion]
+      early skip of rewriting module: scipy.optimize._highspy._core [assertion]
+      early skip of rewriting module: scipy.optimize._highspy._highs_options [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_ip [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_util [assertion]
+      early skip of rewriting module: scipy.optimize._remove_redundancy [assertion]
+      early skip of rewriting module: scipy.linalg.interpolative [assertion]
+      early skip of rewriting module: scipy.linalg._decomp_interpolative [assertion]
+      early skip of rewriting module: scipy.fft [assertion]
+      early skip of rewriting module: scipy.fft._basic [assertion]
+      early skip of rewriting module: scipy._lib.uarray [assertion]
+      early skip of rewriting module: uarray [assertion]
+      early skip of rewriting module: scipy._lib._uarray [assertion]
+      early skip of rewriting module: scipy._lib._uarray._backend [assertion]
+      early skip of rewriting module: scipy._lib._uarray._uarray [assertion]
+      early skip of rewriting module: scipy.fft._realtransforms [assertion]
+      early skip of rewriting module: scipy.fft._fftlog [assertion]
+      early skip of rewriting module: scipy.fft._fftlog_backend [assertion]
+      early skip of rewriting module: scipy.fft._helper [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.basic [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.pypocketfft [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.helper [assertion]
+      early skip of rewriting module: scipy.fft._pocketfft.realtransforms [assertion]
+      early skip of rewriting module: scipy.fft._backend [assertion]
+      early skip of rewriting module: scipy.fft._basic_backend [assertion]
+      early skip of rewriting module: scipy.fft._realtransforms_backend [assertion]
+      early skip of rewriting module: sksparse [assertion]
+      early skip of rewriting module: scikits [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_simplex [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_rs [assertion]
+      early skip of rewriting module: scipy.optimize._bglu_dense [assertion]
+      early skip of rewriting module: scipy.optimize._linprog_doc [assertion]
+      early skip of rewriting module: scipy.optimize._lsap [assertion]
+      early skip of rewriting module: scipy.optimize._differentialevolution [assertion]
+      early skip of rewriting module: scipy.optimize._isotonic [assertion]
+      early skip of rewriting module: scipy.optimize._pava_pybind [assertion]
+      early skip of rewriting module: scipy.optimize._shgo [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib._complex [assertion]
+      early skip of rewriting module: scipy.optimize._shgo_lib._vertex [assertion]
+      early skip of rewriting module: scipy.optimize._dual_annealing [assertion]
+      early skip of rewriting module: scipy.optimize._qap [assertion]
+      early skip of rewriting module: scipy.optimize._direct_py [assertion]
+      early skip of rewriting module: scipy.optimize._direct [assertion]
+      early skip of rewriting module: scipy.optimize._milp [assertion]
+      early skip of rewriting module: scipy.optimize.cobyla [assertion]
+      early skip of rewriting module: scipy.optimize.lbfgsb [assertion]
+      early skip of rewriting module: scipy.optimize.linesearch [assertion]
+      early skip of rewriting module: scipy.optimize.minpack [assertion]
+      early skip of rewriting module: scipy.optimize.minpack2 [assertion]
+      early skip of rewriting module: scipy.optimize.moduleTNC [assertion]
+      early skip of rewriting module: scipy.optimize.nonlin [assertion]
+      early skip of rewriting module: scipy.optimize.optimize [assertion]
+      early skip of rewriting module: scipy.optimize.slsqp [assertion]
+      early skip of rewriting module: scipy.optimize.tnc [assertion]
+      early skip of rewriting module: scipy.optimize.zeros [assertion]
+      early skip of rewriting module: scipy.stats.distributions [assertion]
+      early skip of rewriting module: scipy.stats._distn_infrastructure [assertion]
+      early skip of rewriting module: scipy._lib.doccer [assertion]
+      early skip of rewriting module: scipy.stats._distr_params [assertion]
+      early skip of rewriting module: scipy.integrate [assertion]
+      early skip of rewriting module: scipy.integrate._quadrature [assertion]
+      early skip of rewriting module: scipy.integrate._odepack_py [assertion]
+      early skip of rewriting module: scipy.integrate._odepack [assertion]
+      early skip of rewriting module: scipy.integrate._quadpack_py [assertion]
+      early skip of rewriting module: scipy.integrate._quadpack [assertion]
+      early skip of rewriting module: scipy.integrate._ode [assertion]
+      early skip of rewriting module: scipy.integrate._vode [assertion]
+      early skip of rewriting module: scipy.integrate._dop [assertion]
+      early skip of rewriting module: scipy.integrate._lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._bvp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.ivp [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.bdf [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.common [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.base [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.radau [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.rk [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.dop853_coefficients [assertion]
+      early skip of rewriting module: scipy.integrate._ivp.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate._quad_vec [assertion]
+      early skip of rewriting module: scipy.integrate._tanhsinh [assertion]
+      early skip of rewriting module: scipy._lib._elementwise_iterative_method [assertion]
+      early skip of rewriting module: scipy.integrate._cubature [assertion]
+      early skip of rewriting module: scipy.integrate._rules [assertion]
+      early skip of rewriting module: scipy.integrate._rules._base [assertion]
+      early skip of rewriting module: scipy.integrate._rules._genz_malik [assertion]
+      early skip of rewriting module: scipy.integrate._rules._gauss_kronrod [assertion]
+      early skip of rewriting module: scipy.integrate._rules._gauss_legendre [assertion]
+      early skip of rewriting module: scipy.integrate._lebedev [assertion]
+      early skip of rewriting module: scipy.integrate.dop [assertion]
+      early skip of rewriting module: scipy.integrate.lsoda [assertion]
+      early skip of rewriting module: scipy.integrate.vode [assertion]
+      early skip of rewriting module: scipy.integrate.odepack [assertion]
+      early skip of rewriting module: scipy.integrate.quadpack [assertion]
+      early skip of rewriting module: scipy.stats._finite_differences [assertion]
+      early skip of rewriting module: scipy.stats._constants [assertion]
+      early skip of rewriting module: scipy.stats._censored_data [assertion]
+      early skip of rewriting module: scipy.stats._continuous_distns [assertion]
+      early skip of rewriting module: scipy.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate._interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_py [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_impl [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._dfitpack [assertion]
+      early skip of rewriting module: scipy.interpolate._bsplines [assertion]
+      early skip of rewriting module: scipy.interpolate._dierckx [assertion]
+      early skip of rewriting module: scipy.interpolate._polyint [assertion]
+      early skip of rewriting module: scipy.interpolate._ppoly [assertion]
+      early skip of rewriting module: scipy.interpolate._interpnd [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack2 [assertion]
+      early skip of rewriting module: scipy.interpolate._rbf [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp [assertion]
+      early skip of rewriting module: scipy.interpolate._rbfinterp_pythran [assertion]
+      early skip of rewriting module: scipy.interpolate._cubic [assertion]
+      early skip of rewriting module: scipy.interpolate._ndgriddata [assertion]
+      early skip of rewriting module: scipy.interpolate._fitpack_repro [assertion]
+      early skip of rewriting module: scipy.interpolate._pade [assertion]
+      early skip of rewriting module: scipy.interpolate._rgi [assertion]
+      early skip of rewriting module: scipy.interpolate._rgi_cython [assertion]
+      early skip of rewriting module: scipy.interpolate._ndbspline [assertion]
+      early skip of rewriting module: scipy.interpolate._bary_rational [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack [assertion]
+      early skip of rewriting module: scipy.interpolate.fitpack2 [assertion]
+      early skip of rewriting module: scipy.interpolate.interpolate [assertion]
+      early skip of rewriting module: scipy.interpolate.ndgriddata [assertion]
+      early skip of rewriting module: scipy.interpolate.polyint [assertion]
+      early skip of rewriting module: scipy.interpolate.rbf [assertion]
+      early skip of rewriting module: scipy.interpolate.interpnd [assertion]
+      early skip of rewriting module: scipy.stats._stats [assertion]
+      early skip of rewriting module: scipy.special.cython_special [assertion]
+      early skip of rewriting module: scipy.stats._tukeylambda_stats [assertion]
+      early skip of rewriting module: scipy.stats._ksstats [assertion]
+      early skip of rewriting module: scipy.stats._discrete_distns [assertion]
+      early skip of rewriting module: scipy.stats._biasedurn [assertion]
+      early skip of rewriting module: scipy.stats._stats_pythran [assertion]
+      early skip of rewriting module: scipy.stats._levy_stable [assertion]
+      early skip of rewriting module: scipy.stats._levy_stable.levyst [assertion]
+      early skip of rewriting module: scipy.stats._entropy [assertion]
+      early skip of rewriting module: scipy.stats._axis_nan_policy [assertion]
+      early skip of rewriting module: scipy.stats._mstats_basic [assertion]
+      early skip of rewriting module: scipy._lib._bunch [assertion]
+      early skip of rewriting module: scipy.stats._stats_mstats_common [assertion]
+      early skip of rewriting module: scipy.stats._hypotests [assertion]
+      early skip of rewriting module: scipy.stats._common [assertion]
+      early skip of rewriting module: scipy.stats._resampling [assertion]
+      early skip of rewriting module: scipy.stats._binomtest [assertion]
+      early skip of rewriting module: scipy.stats._variation [assertion]
+      early skip of rewriting module: scipy.stats._morestats [assertion]
+      early skip of rewriting module: scipy.stats._ansari_swilk_statistics [assertion]
+      early skip of rewriting module: scipy.stats._wilcoxon [assertion]
+      early skip of rewriting module: scipy.stats._fit [assertion]
+      early skip of rewriting module: scipy.stats.contingency [assertion]
+      early skip of rewriting module: scipy.stats._relative_risk [assertion]
+      early skip of rewriting module: scipy.stats._crosstab [assertion]
+      early skip of rewriting module: scipy.stats._odds_ratio [assertion]
+      early skip of rewriting module: scipy.stats._multicomp [assertion]
+      early skip of rewriting module: scipy.stats._qmc [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._laplacian [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._shortest_path [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._validation [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._tools [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._traversal [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._min_spanning_tree [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._flow [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._matching [assertion]
+      early skip of rewriting module: scipy.sparse.csgraph._reordering [assertion]
+      early skip of rewriting module: scipy.stats._sobol [assertion]
+      early skip of rewriting module: scipy.stats._qmc_cy [assertion]
+      early skip of rewriting module: scipy.stats._binned_statistic [assertion]
+      early skip of rewriting module: scipy.stats._kde [assertion]
+      early skip of rewriting module: scipy.stats._multivariate [assertion]
+      early skip of rewriting module: scipy.stats._covariance [assertion]
+      early skip of rewriting module: scipy.stats._rcont [assertion]
+      early skip of rewriting module: scipy.stats._rcont.rcont [assertion]
+      early skip of rewriting module: scipy.stats._qmvnt [assertion]
+      early skip of rewriting module: scipy.stats._qmvnt_cy [assertion]
+      early skip of rewriting module: scipy.stats.mstats [assertion]
+      early skip of rewriting module: scipy.stats._mstats_extras [assertion]
+      early skip of rewriting module: scipy.stats.qmc [assertion]
+      find_module called for: scipy.stats._page_trend_test [assertion]
+      matched test file '/home/fmclary/miniforge3/lib/python3.12/site-packages/scipy/stats/_page_trend_test.py' [assertion]
+      rewriting PosixPath('/home/fmclary/miniforge3/lib/python3.12/site-packages/scipy/stats/_page_trend_test.py') [assertion]
+      early skip of rewriting module: scipy.stats._mannwhitneyu [assertion]
+      find_module called for: scipy.stats._bws_test [assertion]
+      matched test file '/home/fmclary/miniforge3/lib/python3.12/site-packages/scipy/stats/_bws_test.py' [assertion]
+      rewriting PosixPath('/home/fmclary/miniforge3/lib/python3.12/site-packages/scipy/stats/_bws_test.py') [assertion]
+      early skip of rewriting module: scipy.stats._sensitivity_analysis [assertion]
+      early skip of rewriting module: scipy.stats._survival [assertion]
+      early skip of rewriting module: scipy.stats._distribution_infrastructure [assertion]
+      early skip of rewriting module: scipy.optimize._bracket [assertion]
+      early skip of rewriting module: scipy.optimize._chandrupatla [assertion]
+      early skip of rewriting module: scipy.stats._probability_distribution [assertion]
+      early skip of rewriting module: scipy.stats._new_distributions [assertion]
+      early skip of rewriting module: scipy.stats._mgc [assertion]
+      early skip of rewriting module: scipy.ndimage [assertion]
+      early skip of rewriting module: scipy.ndimage._support_alternative_backends [assertion]
+      early skip of rewriting module: scipy.ndimage._ndimage_api [assertion]
+      early skip of rewriting module: scipy.ndimage._filters [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_support [assertion]
+      early skip of rewriting module: scipy.ndimage._nd_image [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_docstrings [assertion]
+      early skip of rewriting module: scipy.ndimage._rank_filter_1d [assertion]
+      early skip of rewriting module: scipy.ndimage._fourier [assertion]
+      early skip of rewriting module: scipy.ndimage._interpolation [assertion]
+      early skip of rewriting module: scipy.ndimage._measurements [assertion]
+      early skip of rewriting module: scipy.ndimage._ni_label [assertion]
+      early skip of rewriting module: scipy.ndimage._morphology [assertion]
+      early skip of rewriting module: scipy.ndimage._delegators [assertion]
+      early skip of rewriting module: scipy.ndimage.filters [assertion]
+      early skip of rewriting module: scipy.ndimage.fourier [assertion]
+      early skip of rewriting module: scipy.ndimage.interpolation [assertion]
+      early skip of rewriting module: scipy.ndimage.measurements [assertion]
+      early skip of rewriting module: scipy.ndimage.morphology [assertion]
+      early skip of rewriting module: scipy.stats._correlation [assertion]
+      early skip of rewriting module: scipy.stats._quantile [assertion]
+      early skip of rewriting module: scipy.stats.biasedurn [assertion]
+      early skip of rewriting module: scipy.stats.kde [assertion]
+      early skip of rewriting module: scipy.stats.morestats [assertion]
+      early skip of rewriting module: scipy.stats.mstats_basic [assertion]
+      early skip of rewriting module: scipy.stats.mstats_extras [assertion]
+      early skip of rewriting module: scipy.stats.mvn [assertion]
+      early skip of rewriting module: scipy.stats.stats [assertion]
+      early skip of rewriting module: pinhole_effect [assertion]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_pinhole.py' lenresult=0 outcome='failed'> [hook]
+      pytest_exception_interact [hook]
+          node: <Module test_pinhole.py>
+          call: <CallInfo when='collect' excinfo=<ExceptionInfo CollectError("ImportError while importing test module '/home/fmclary/pinhole-effect/tests/test_pinhole.py'.\nHint: mak...nhole.py:19: in <module>\n    from pinhole_effect import (\nE   ModuleNotFoundError: No module named 'pinhole_effect'") tblen=7>>
+          report: <CollectReport 'tests/test_pinhole.py' lenresult=0 outcome='failed'>
+      finish pytest_exception_interact --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_pinhole.py' lenresult=0 outcome='failed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+          config: <_pytest.config.Config object at 0x714abd267500>
+          items: []
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x714abd267500>
+            items: []
+            start_path: /home/fmclary/pinhole-effect
+            startdir: /home/fmclary/pinhole-effect
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+    pytest_keyboard_interrupt [hook]
+        excinfo: <ExceptionInfo Interrupted('1 error during collection') tblen=15>
+    finish pytest_keyboard_interrupt --> [] [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=1 testscollected=0>
+        exitstatus: 2
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x714abc85f500>
+          exitstatus: 2
+          config: <_pytest.config.Config object at 0x714abd267500>
+        pytest_report_teststatus [hook]
+            report: <CollectReport 'tests/test_pinhole.py' lenresult=0 outcome='failed'>
+            config: <_pytest.config.Config object at 0x714abd267500>
+        finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x714abd267500>
+    finish pytest_unconfigure --> [] [hook]

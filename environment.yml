@@ -1,4 +1,4 @@
-name: pinhole-effect
+name: pinhole_effect
 channels:
   - conda-forge
 dependencies:
@@ -8,6 +8,8 @@ dependencies:
   - matplotlib>=3.8
   - pandas>=2.2.2
   - pytest
+  - pytest-cov
+  - ruff
   - pip
   - pip:
       - -e .

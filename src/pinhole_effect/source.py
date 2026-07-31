@@ -54,8 +54,8 @@ class Source:
         Maximum ray angle (radians).
     """
 
-    def __init__(self, energy: float, alpha: float):
-                 #rng: np.random.Generator | None = None):
+    def __init__(self, energy: float, alpha: float,
+                rng: np.random.Generator | None = None):
         if energy <= 0:
             raise ValueError(f"energy must be positive (got {energy} eV)")
         if alpha <= 0:

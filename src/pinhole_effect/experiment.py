@@ -236,7 +236,14 @@ class Experiment:
         """Ideal uniform-sample spectrum: exp(-mu(E) * t), theta = 0."""
         t = self._mean_thickness() if thickness is None else float(thickness)
         return np.exp(-self._mu_grid * t)
-
+    
+    # ------------------------------------------------------------------
+    # Shared table export method
+    # ------------------------------------------------------------------
+    def save_table(table: np.ndarray, filename: str):
+        """Save transmission table to local directory as `.csv` file."""
+        return table.tofile(filename, sep=',')
+        
     # ------------------------------------------------------------------
     # Shared plotting (returns figures; never calls plt.show())
     # ------------------------------------------------------------------

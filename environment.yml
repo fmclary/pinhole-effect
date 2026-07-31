@@ -2,9 +2,12 @@ name: pinhole-effect
 channels:
   - conda-forge
 dependencies:
-  - matplotlib=3.5
-  - numpy=1.17
-  - pandas=2.2.2
-  - pytest=9.0.1
   - python=3.12
-  - scipy=1.4
+  - numpy>=2.0
+  - scipy>=1.13
+  - matplotlib>=3.8
+  - pandas>=2.2.2
+  - pytest
+  - pip
+  - pip:
+      - -e .

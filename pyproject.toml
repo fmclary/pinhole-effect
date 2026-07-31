@@ -4,21 +4,33 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = 'pinhole-effect'
-version = '0.0.1'
+dynamic = ['version']
+[tool.setuptools_scm]
+
+[tool.setuptools.packages.find]
+include = ['pinhole_effect*']
+
 description = 'This package simulates the pinhole effect in x-ray absorption spectroscopy due to thickness inhomogeneity and compares to the spectrum of a sample with uniform thickness.'
 authors = [
   {name = 'Fiona McLary', email = 'fionaemw@uw.edu'}
 ]
 readme = 'README.md'
 license = { file = 'LICENSE' }
+[project.urls]
+homepage = 'https://github.com/fmclary/pinhole-effect'
+issues = 'https://github.com/fmclary/pinhole-effect/issues'
+
 requires-python = '>=3.12'
 dependencies = [
-  'numpy>=1.17',
-  'scipy>=1.4',
-  'matplotlib>=3.5',
-  'pytest',
-  'pandas>=2.2.2'
+  'numpy>=1.26',
+  'scipy>=1.13',
+  'matplotlib>=3.8',
+  'pandas>=2.2.2',
 ]
+
+[project.optional-dependencies]
+test = ['pytest']
+
 classifiers = [
   'Programming Language :: Python :: 3',
   'License :: OSI Approved :: MIT License',

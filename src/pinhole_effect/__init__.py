@@ -38,11 +38,7 @@ from __future__ import annotations
 
 from importlib.metadata import PackageNotFoundError, version
 
-from .experiment import (
-    Experiment,
-    FullSampleExperiment,
-    SingleRayExperiment
-)
+from .experiment import Experiment, FullSampleExperiment, SingleRayExperiment
 from .sample import Sample
 from .source import Source
 

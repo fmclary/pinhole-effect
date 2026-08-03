@@ -9,6 +9,7 @@ import os
 import tempfile
 
 import matplotlib
+
 matplotlib.use("Agg")            # headless backend for plot tests
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,11 +18,11 @@ import pytest
 from scipy import stats
 
 from pinhole_effect import (
-    Source,
-    Sample,
     Experiment,
-    SingleRayExperiment,
     FullSampleExperiment,
+    Sample,
+    SingleRayExperiment,
+    Source
 )
 
 
@@ -404,6 +405,6 @@ class TestPlotting:
 
     def test_compare_spectra_absorbance(self, source, sample):
         e = Experiment(source, sample, None, 1000, rng=1)
-        fig, ax = e.compare_spectra(absorbance=True)
+        fig, _ax = e.compare_spectra(absorbance=True)
         assert fig is not None
         plt.close(fig)

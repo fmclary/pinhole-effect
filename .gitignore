@@ -1,0 +1,16 @@
+# Byte-compiled
+__pycache__/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache/
+*.log
+
+# Local machine testing / dev files
+claude_to_review/

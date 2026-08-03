@@ -38,13 +38,13 @@ from __future__ import annotations
 
 from importlib.metadata import PackageNotFoundError, version
 
-from .source import Source
-from .sample import Sample
 from .experiment import (
     Experiment,
-    SingleRayExperiment,
     FullSampleExperiment,
+    SingleRayExperiment
 )
+from .sample import Sample
+from .source import Source
 
 try:
     __version__ = version("pinhole-effect")
@@ -54,10 +54,10 @@ except PackageNotFoundError:
     __version__ = "0.0.0"
 
 __all__ = [
-    "Source",
-    "Sample",
     "Experiment",
-    "SingleRayExperiment",
     "FullSampleExperiment",
+    "Sample",
+    "SingleRayExperiment",
+    "Source",
     "__version__",
 ]

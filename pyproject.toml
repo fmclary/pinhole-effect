@@ -38,3 +38,6 @@ issues = 'https://github.com/fmclary/pinhole-effect/issues'
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ['pinhole_effect*']
+
+[tool.ruff]
+extend-exclude = ["build", "dist"]

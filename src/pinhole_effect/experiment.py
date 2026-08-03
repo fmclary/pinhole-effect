@@ -59,8 +59,8 @@ Conventions / units
 
 from __future__ import annotations
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
 # Cap on the number of elements in the (n_rays x n_energies) work array,
 # so large runs are chunked instead of allocating enormous matrices.
@@ -119,7 +119,7 @@ class Experiment:
             else:
                 n_rays = 1
             n_rays_int = _validate_n_rays(n_rays)
-            cls = SingleRayExperiment if n_rays_int == 1 else FullSampleExperiment
+            cls = SingleRayExperiment if n_rays_int == 1 else FullSampleExperiment    # noqa: PLW0642 -- intentional factory dispatch
         return super().__new__(cls)
 
     def __init__(self, source, sample, energy_range=None,

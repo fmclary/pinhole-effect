@@ -22,7 +22,6 @@ from pinhole_effect import (
     FullSampleExperiment,
     Sample,
     SingleRayExperiment,
-    
     Source
 )
 

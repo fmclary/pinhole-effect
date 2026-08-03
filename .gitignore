@@ -11,6 +11,7 @@ dist/
 .coverage
 .pytest_cache/
 *.log
+.ruff_cache/
 
 # Local machine testing / dev files
 claude_to_review/

@@ -66,6 +66,48 @@ import numpy as np
 # so large runs are chunked instead of allocating enormous matrices.
 _MAX_BLOCK_ELEMENTS = 4_000_000
 
+# Seidler lab standard figure style. Applied *locally* per plot
+# via plt.style.context so importing this module never mutates a user's
+# global matplotlib settings.
+_HOUSE_FONT = "Times New Roman"
+ 
+_HOUSE_STYLE = {
+    "axes.labelsize": 20,
+    "axes.titlesize": 25,
+    "xtick.direction": "in",
+    "ytick.direction": "in",
+    "xtick.labelsize": 15,
+    "ytick.labelsize": 15,
+    "lines.linewidth": 2,
+    "legend.fontsize": 25,
+    "legend.loc": "upper left",
+    "legend.fancybox": True,
+    "figure.figsize": (10, 6),
+}
+ 
+ 
+def _house_font_available(name=_HOUSE_FONT):
+    """Return True if the named font is installed on this machine.
+ 
+    Used so the serif font is only requested when present; on machines
+    without it (e.g. CI runners), matplotlib's default font is used
+    instead of falling back noisily to it.
+    """
+    from matplotlib import font_manager
+    available = {f.name for f in font_manager.fontManager.ttflist}
+    return name in available
+ 
+ 
+# Add the serif-font keys only if the font is actually installed. When it is
+# not, the plots use matplotlib's default font -- no findfont warnings.
+if _house_font_available():
+    _HOUSE_STYLE.update({
+        "font.family": "serif",
+        "font.serif": [_HOUSE_FONT],
+        "mathtext.fontset": "custom",
+        "mathtext.rm": _HOUSE_FONT,
+    })
+
 
 class Experiment:
     """Base class: simulates transmission through an inhomogeneous sample.
@@ -251,24 +293,26 @@ class Experiment:
         """Plot transmitted intensity vs energy. Returns (fig, ax)."""
         table = self.transmission_table()
         energies, intensity = table[:, 0], table[:, 1]
-        fig, ax = _get_axes(ax)
-        ax.plot(energies, intensity, **plot_kw)
-        ax.set_xlabel("Energy (eV)")
-        ax.set_ylabel("Transmitted intensity  $I/I_0$")
-        ax.set_title(self._plot_title())
-        fig.tight_layout()
+        with plt.style.context(_HOUSE_STYLE):
+            fig, ax = _get_axes(ax)
+            ax.plot(energies, intensity, **plot_kw)
+            ax.set_xlabel("Energy (eV)")
+            ax.set_ylabel("Transmitted intensity  $I/I_0$")
+            ax.set_title(self._plot_title())
+            fig.tight_layout()
         return fig, ax
 
     def plot_absorbance(self, ax=None, **plot_kw):
         """Plot absorbance ln(I0/I) vs energy. Returns (fig, ax)."""
         table = self.transmission_table()
         energies, intensity = table[:, 0], table[:, 1]
-        fig, ax = _get_axes(ax)
-        ax.plot(energies, _absorbance(intensity), **plot_kw)
-        ax.set_xlabel("Energy (eV)")
-        ax.set_ylabel(r"Absorbance  $\ln(I_0/I)$")
-        ax.set_title(self._plot_title())
-        fig.tight_layout()
+        with plt.style.context(_HOUSE_STYLE):
+            fig, ax = _get_axes(ax)
+            ax.plot(energies, _absorbance(intensity), **plot_kw)
+            ax.set_xlabel("Energy (eV)")
+            ax.set_ylabel(r"Absorbance  $\ln(I_0/I)$")
+            ax.set_title(self._plot_title())
+            fig.tight_layout()
         return fig, ax
 
     # ------------------------------------------------------------------
@@ -426,17 +470,18 @@ class FullSampleExperiment(Experiment):
         else:
             ylabel = "Transmitted intensity  $I/I_0$"
 
-        fig, ax = _get_axes(ax)
-        ax.plot(self.energies, ideal, "k--", lw=1.5,
-                label=fr"ideal uniform sample ($t={t_assumed:.4g}$)")
-        ax.plot(self.energies, simulated, "C0-", lw=1.8,
-                label=f"inhomogeneous sample ({self.n_rays} rays)")
-        ax.set_xlabel("Energy (eV)")
-        ax.set_ylabel(ylabel)
-        ax.set_title(f"Pinhole effect: {self.sample.element} "
-                     f"{self.sample.edge}-edge")
-        ax.legend(frameon=False)
-        fig.tight_layout()
+        with plt.style.context(_HOUSE_STYLE):
+            fig, ax = _get_axes(ax)
+            ax.plot(self.energies, ideal, "k--",
+                    label=fr"ideal uniform sample ($t={t_assumed:.4g}$)")
+            ax.plot(self.energies, simulated, "C0-",
+                    label=f"inhomogeneous sample ({self.n_rays} rays)")
+            ax.set_xlabel("Energy (eV)")
+            ax.set_ylabel(ylabel)
+            ax.set_title(f"Pinhole effect: {self.sample.element} "
+                        f"{self.sample.edge}-edge")
+            ax.legend(frameon=False)
+            fig.tight_layout()
         return fig, ax
 
 
